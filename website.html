@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title> Saran R</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width , initial-scale=1.0">
+    <link rel="stylesheet" href="website.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet"></head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="dev.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" name="home" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Saran R</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Developer</p>
+        <img src="mypic.jpg" alt="my picture" class="intro__img">
+    </section>
+
+    <section class="about-me" name="about" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer</p>
+
+        <div class="about-me__body">
+            <p>Lorem Ipsum is simply dummy text of the printing and 
+                typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown 
+                printer took a galley of type and scrambled it to make a 
+                type specimen book. It has survived not only five centuries, 
+                but also the leap into electronic typesetting, 
+                remaining essentially unchanged.</p>
+        </div>
+
+        <img src="about.jpeg" alt="My pic 2" class="about-me__img">
+    </section>
+
+    <section class="my-skills" name="skills" id="skills">
+        <h2 class="section__title section__title--skills">What I'm good At</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Programming</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries, 
+                    but also the leap into electronic typesetting, 
+                    remaining essentially unchanged.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Developer</h3>
+                <p>It was popularised in the 1960s with the release of Letraset 
+                    sheets containing Lorem Ipsum passages, and more recently 
+                    with desktop publishing software like Aldus PageMaker 
+                    including versions of Lorem Ipsum.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Cloud</h3>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+                    used to demonstrate the visual form of a document or a typeface without relying
+                    on meaningful content.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="my-work" name="work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A collection of a range of my work</p>
+
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="csharp.png" alt="portfolio images" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="dotnet.png" alt="portfolio images" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="sqlserver.png" alt="portfolio images" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="azure.png" alt="portfolio images" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="java.png" alt="portfolio images" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact" name="contact">
+        <a href="mailto:saran.r108@gmail.com" class="footer-link">saran.r108@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="website.js"></script>
+
+</body>
+</html>
